@@ -12,7 +12,6 @@ import android.widget.TextView;
 
 public class about extends DialogFragment implements View.OnClickListener {
     Toolbar mToolbar;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
