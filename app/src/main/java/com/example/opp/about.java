@@ -14,8 +14,6 @@ public class about extends DialogFragment implements View.OnClickListener {
     Toolbar mToolbar;
     @Override
     public void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setStyle(DialogFragment.STYLE_NO_TITLE, R.style.MyDialogTheme);
     }
