@@ -11,9 +11,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/*
- * Created by 8 on 2017/6/6.
- */
+
 
 public class chidtabfa1 extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
     public static final String ARG_PAGE = "ARG_PAGE";
