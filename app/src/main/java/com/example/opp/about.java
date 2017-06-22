@@ -8,14 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-/**
- * Created by 8 on 2017/6/17.
- */
+
 
 public class about extends DialogFragment implements View.OnClickListener {
     Toolbar mToolbar;
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
 
         super.onCreate(savedInstanceState);
         setStyle(DialogFragment.STYLE_NO_TITLE, R.style.MyDialogTheme);
@@ -30,7 +29,6 @@ public class about extends DialogFragment implements View.OnClickListener {
         if (getTag() == "關於作者"){
             mToolbar.setTitle("關於作者");
             TextView.setText("我叫陳居賢\n非常願意學習新的知識，希望能有機會到貴公司上班，希望可以有面試的機會。");
-
 
         }
         else{
