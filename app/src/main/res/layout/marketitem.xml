@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@android:style/TextAppearance.Holo.Large" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="go"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:focusable="false"
+            android:clickable="false" android:focusableInTouchMode="false"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_alignBottom="@+id/button8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/background_light"
+            app:srcCompat="@android:drawable/ic_menu_crop" />
+    </RelativeLayout>
+
+</LinearLayout>

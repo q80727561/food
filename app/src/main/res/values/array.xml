@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citys">
+        <item>附近</item>
+        <item>全部</item>
+        <item>台北市 </item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+    </string-array>
+    <string-array name="market">
+        <item>全部</item>
+        <item>台北市 </item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+    </string-array>
+</resources>
